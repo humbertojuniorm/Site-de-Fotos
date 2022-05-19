@@ -7,7 +7,7 @@
 body {
     font-family: 'Ubuntu', sans-serif;
     margin: 0;
-    background: url(imagens/wallpaper-blur.jpg);
+    background: url(imagens/wallpaper-blur02.jpg);
     background-attachment: fixed;
 
 }
@@ -15,16 +15,17 @@ body {
 /* NAVEGAÇÃO */
 
 nav {
-    box-shadow: 0px 0px 50px black;
+    
 }
 
 
 div ul {
     padding: 10px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     background-color: rgb(255, 255, 255);
     list-style-type: none;
+    border-radius: 0px 0px 150px 150px;
 
     margin: 0;
 }
@@ -39,10 +40,9 @@ a {
 nav a:hover {
     background-color: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
-    box-shadow: 0px 0px 15px #000000e3;
 }
 
-/* PRINCIPAL */
+/* IMAGEM */
 
 .assinatura {
     display: flex;
@@ -59,31 +59,35 @@ nav a:hover {
     max-height: 100%;
 }
 
+/* PRINCIPAL */
+
 .boasvindas {
-    padding: 100px 0px;
+    padding: 93px 0px;
     display: flex;
+    font-size:25px;
     justify-content: center;
     background-color: rgb(255, 255, 255);
     max-width: 1000px;
     margin: 0 auto;
+    border-radius: 50px 50px 0px 0px;
 
 }
 
 .secao {
     display: flex;
     background-color: rgb(255, 255, 255);
-    max-width: 1000px;
+    max-width: 940px;
+    padding: 80px 30px 0px 30px;
     flex-wrap: wrap;
     margin: 0 auto;
-    max-height: 100%;
-    gap: 40px;
+    gap: 30px;
 
 }
 
 .secao div {
 
     flex: 300px;
-    margin: 10px 10px 80px 10px;
+    margin-bottom: 70px;
     
 }
 
@@ -95,13 +99,14 @@ img {
 /* RODAPÉ */
 
 footer {
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     text-align: center;
     height: 40px;
-    border-top: 2px solid black;
+    border-top: 1px solid rgba(0, 0, 0, 0.37);
 }
 
 footer p {
     padding-top: 10px;
+    color: rgba(0, 0, 0, 0.671);
     margin-top: 0;
 }
