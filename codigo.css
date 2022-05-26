@@ -16,6 +16,7 @@ body {
     background: url(imagens/wallpaper-verde.jpg);
     color: white;
     background-attachment: fixed;
+    background-size: cover;
 
 }
 
