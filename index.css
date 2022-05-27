@@ -23,7 +23,6 @@ div ul {
     background-color: rgb(255, 255, 255);
     list-style-type: none;
     border-radius: 0px 0px 150px 150px;
-
     margin: 0;
 }
 
@@ -46,7 +45,6 @@ nav a:hover {
     justify-content: center;
     height: 200px;
     padding: 40px;
-    
 }
 
 .assinatura > img {
@@ -64,8 +62,9 @@ nav a:hover {
     background-color: rgb(255, 255, 255);
     max-width: 1000px;
     margin: 0 auto;
+    margin-bottom: -2px;
+    
     border-radius: 70px 70px 0px 0px;
-
 }
 
 .secao {
@@ -78,14 +77,11 @@ nav a:hover {
     margin: 0 auto;
     margin-bottom: 70px;
     gap: 30px;
-
 }
 
 .secao div {
-
     flex: 300px;
     margin-bottom: 70px;
-    
 }
 
 img {
@@ -108,7 +104,6 @@ footer {
 footer p {
     padding-top: 10px;
     color: rgba(0, 0, 0, 0.671);
-    
 }
 
 footer a {
